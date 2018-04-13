@@ -1,0 +1,30 @@
+{
+  "type": "ancientwarfare:research_recipe",
+  "research": "advanced_siege_warfare",
+  "pattern": [
+    "M M",
+    "GCG",
+    "M M"
+  ],
+  "key": {
+    "C": {
+      "type": "minecraft:item_nbt",
+      "item": "ancientwarfarevehicle:spawner",
+      "nbt": "{spawnData:{level:4}}",
+      "data": 1
+    },
+    "G": {
+      "item": "ancientwarfare:component",
+      "data": 2
+    },
+    "M": {
+      "item": "ancientwarfarevehicle:mobility_unit"
+    }
+  },
+  "result": {
+    "type": "minecraft:item_nbt",
+    "item": "ancientwarfarevehicle:spawner",
+    "nbt": "{spawnData:{level:4}}",
+    "data": 3
+  }
+}

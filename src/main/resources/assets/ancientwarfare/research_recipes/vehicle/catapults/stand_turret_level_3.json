@@ -1,0 +1,24 @@
+{
+  "type": "ancientwarfare:research_recipe",
+  "research": "siege_warfare",
+  "pattern": [
+    "C",
+    "F"
+  ],
+  "key": {
+    "C": {
+      "type": "minecraft:item_nbt",
+      "item": "ancientwarfarevehicle:spawner",
+      "nbt": "{spawnData:{level:3}}"
+    },
+    "F": {
+      "item": "ancientwarfarevehicle:turret_components"
+    }
+  },
+  "result": {
+    "type": "minecraft:item_nbt",
+    "item": "ancientwarfarevehicle:spawner",
+    "nbt": "{spawnData:{level:3}}",
+    "data": 1
+  }
+}

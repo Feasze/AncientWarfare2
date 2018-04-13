@@ -1,0 +1,27 @@
+{
+  "type": "ancientwarfare:research_recipe",
+  "research": "siege_warfare",
+  "pattern": [
+    "WIW",
+    "IOI",
+    "WIW"
+  ],
+  "key": {
+    "I": {
+      "item": "ancientwarfarevehicle:rough_iron"
+    },
+    "W": {
+      "item": "ancientwarfarevehicle:treated_wood"
+    },
+    "O": {
+      "type": "minecraft:item_nbt",
+      "item": "ancientwarfarevehicle:spawner",
+      "nbt": "{spawnData:{level:1}}"
+    }
+  },
+  "result": {
+    "type": "minecraft:item_nbt",
+    "item": "ancientwarfarevehicle:spawner",
+    "nbt": "{spawnData:{level:2}}"
+  }
+}

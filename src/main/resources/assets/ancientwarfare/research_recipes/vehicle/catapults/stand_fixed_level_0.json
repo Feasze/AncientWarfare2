@@ -1,0 +1,29 @@
+{
+  "type": "ancientwarfare:research_recipe",
+  "research": "siege_warfare",
+  "pattern": [
+    "WBW",
+    "SES",
+    "W W"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:banner",
+      "data": 15
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "W": {
+      "item": "#PLANKWOOD"
+    },
+    "E": {
+      "item": "minecraft:piston"
+    }
+  },
+  "result": {
+    "type": "minecraft:item_nbt",
+    "item": "ancientwarfarevehicle:spawner",
+    "nbt": "{spawnData:{level:0}}"
+  }
+}

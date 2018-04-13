@@ -11,16 +11,16 @@ public class AWVehicleEntityLoader {
     private static int nextID = 0;
 
     public static void load() {
-        EntityDeclaration reg = new VehiculeDeclaration(VehicleBase.class, AWEntityRegistry.VEHICLE_TEST);
+        EntityDeclaration reg = new VehicleDeclaration(VehicleBase.class, AWEntityRegistry.VEHICLE_TEST);
         AWEntityRegistry.registerEntity(reg);
 
-        reg = new VehiculeDeclaration(MissileBase.class, AWEntityRegistry.MISSILE_TEST);
+        reg = new VehicleDeclaration(MissileBase.class, AWEntityRegistry.MISSILE_TEST);
         AWEntityRegistry.registerEntity(reg);
     }
 
-    private static class VehiculeDeclaration extends EntityDeclaration {
+    private static class VehicleDeclaration extends EntityDeclaration {
 
-        public VehiculeDeclaration(Class<? extends Entity> entityClass, String entityName) {
+        public VehicleDeclaration(Class<? extends Entity> entityClass, String entityName) {
             super(entityClass, entityName, nextID++, AncientWarfareVehicles.modID);
         }
 
